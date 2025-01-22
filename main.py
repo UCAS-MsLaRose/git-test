@@ -5,6 +5,8 @@ def helloWorld(name):
 
 
 def main():
-    print(helloWorld("Alex"))
+    print("Welcome to my program, please type your name: \n")
+    name = input()
+    print(helloWorld(name))
 
 main()
